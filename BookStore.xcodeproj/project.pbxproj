@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC5FEBB262A649F0069BF36 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5FEBA262A649F0069BF36 /* AddViewController.swift */; };
+		9CC5FEBE262A67820069BF36 /* BookStoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5FEBD262A67820069BF36 /* BookStoreDelegate.swift */; };
 		9CCA0F2725F30F3B00FAF80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA0F2625F30F3B00FAF80D /* AppDelegate.swift */; };
 		9CCA0F2925F30F3B00FAF80D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA0F2825F30F3B00FAF80D /* SceneDelegate.swift */; };
 		9CCA0F2B25F30F3B00FAF80D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA0F2A25F30F3B00FAF80D /* MasterViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CC5FEBA262A649F0069BF36 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		9CC5FEBD262A67820069BF36 /* BookStoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreDelegate.swift; sourceTree = "<group>"; };
 		9CCA0F2325F30F3B00FAF80D /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCA0F2625F30F3B00FAF80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CCA0F2825F30F3B00FAF80D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				9CCA0F2F25F30F3C00FAF80D /* Assets.xcassets */,
 				9CCA0F3125F30F3C00FAF80D /* LaunchScreen.storyboard */,
 				9CCA0F3425F30F3C00FAF80D /* Info.plist */,
+				9CC5FEBA262A649F0069BF36 /* AddViewController.swift */,
+				9CC5FEBD262A67820069BF36 /* BookStoreDelegate.swift */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			files = (
 				9CCA0F3C25F30F9000FAF80D /* Book.swift in Sources */,
 				9CCA0F2B25F30F3B00FAF80D /* MasterViewController.swift in Sources */,
+				9CC5FEBB262A649F0069BF36 /* AddViewController.swift in Sources */,
 				9CCA0F2725F30F3B00FAF80D /* AppDelegate.swift in Sources */,
 				9CCA0F4525F315C800FAF80D /* DetailViewController.swift in Sources */,
+				9CC5FEBE262A67820069BF36 /* BookStoreDelegate.swift in Sources */,
 				9CCA0F3F25F30FC500FAF80D /* BookStore.swift in Sources */,
 				9CCA0F2925F30F3B00FAF80D /* SceneDelegate.swift in Sources */,
 			);
