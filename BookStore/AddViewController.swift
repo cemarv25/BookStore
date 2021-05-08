@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AddViewController: UIViewController, UITextFieldDelegate {
+class AddViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate {
     @IBOutlet weak var titleText: UITextField!
     @IBOutlet weak var authorText: UITextField!
     @IBOutlet weak var pagesText: UITextField!
@@ -48,6 +48,7 @@ class AddViewController: UIViewController, UITextFieldDelegate {
         titleText.delegate = self
         authorText.delegate = self
         pagesText.delegate = self
+        descriptionText.delegate = self
 
         // Do any additional setup after loading the view.
         if editBook {
@@ -74,6 +75,15 @@ class AddViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
+
     
 
     /*
